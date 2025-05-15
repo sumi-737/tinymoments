@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Heading-section...Nav-Bar */
+
+.nav-bar{
+    height: 80px;
+    width: auto;
+    background-color:#1a1a1a;
+    text-align: center;
+    align-items: center; 
+    justify-content: space-between;
+    color:aliceblue;
+    display: flex;
+    padding: 10PX;
+}
+/* Nav-logo */
+.nav-logo{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+    display: flex;
+    gap: 5px;
+
+}
+
+.logo-name{
+    font-size: 35px;
+}
+.logo-name:hover{
+    color:black;
+    background-color: aliceblue;
+
+}
+
+
+/* Nav-link */
+
+.nav-link{
+    font-size: 20px; 
+}
+.nav-link a{
+  padding: 10px;
+  color: aliceblue;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.nav-link a:hover {
+    color:black;
+    background-color: aliceblue;
+}
+
+/* General Styles web developer */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container-name h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.0rem;
+  color: aliceblue; 
+  background-color: #1a1a1a;
+  width: 350px;
+  align-items: center;
+  border-radius: 0px 20px 20px 0px ;
+ 
+
+  
+} 
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.container-box h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container-box p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.container-box img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+
+/* Highlight Important Keywords */
+.container-box p strong {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Button Styles */
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.cta-button:active {
+  background-color: #004085;
+  transform: translateY(2px);
+}
+/* Digitqal Marketing */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container-name2 h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.0rem;
+  color: aliceblue; 
+  background-color: #1a1a1a;
+  width: 350px;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px ;
+  margin-left: 1010px;
+ 
+
+  
+} 
+.main-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* footer-style  */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.part1{
+  color:rgb(213, 18, 213);
+}
+
+.footer p,
+.footer a {
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  
+
+}
+
+.footer-links li a {
+  margin-bottom: 8px; 
+}
+.footer-links li a:hover{
+    background-color:white;
+    color: black;
+}
+.footer-social-link{
+    display: flex;
+}
+
+.footer-social a {
+  margin-bottom: 8px;
+}
+.footer-social a img{
+     height: 30px;
+     width: 30px;
+     border-radius: 50%; 
+
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 13px;
+}
